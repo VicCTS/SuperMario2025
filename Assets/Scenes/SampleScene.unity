@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26500379}
   - component: {fileID: 26500380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 72332006}
   - component: {fileID: 72332007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,7 +390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 75500822}
   - component: {fileID: 75500823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 76614387}
   - component: {fileID: 76614388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -564,7 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 94091520}
   - component: {fileID: 94091521}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97805004}
   - component: {fileID: 97805005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -738,7 +738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 115412747}
   - component: {fileID: 115412748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129522619}
   - component: {fileID: 129522620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,6 +912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158142493}
   - component: {fileID: 158142494}
+  - component: {fileID: 158142495}
   m_Layer: 0
   m_Name: Cajas_0
   m_TagString: Untagged
@@ -989,6 +990,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &158142495
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158142492}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.0625, y: 1.0625}
+    newSize: {x: 1.0625, y: 1.0625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.0625, y: 1.0625}
+  m_EdgeRadius: 0
 --- !u!1 &192929334
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +1046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 192929335}
   - component: {fileID: 192929336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1086,7 +1133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200414893}
   - component: {fileID: 200414894}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1173,7 +1220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 220909268}
   - component: {fileID: 220909269}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1260,7 +1307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 231623458}
   - component: {fileID: 231623459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,7 +1394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240568246}
   - component: {fileID: 240568245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1434,7 +1481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246708848}
   - component: {fileID: 246708849}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1521,7 +1568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 291019292}
   - component: {fileID: 291019293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1641,7 +1688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 327573653}
   - component: {fileID: 327573654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1728,7 +1775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339852148}
   - component: {fileID: 339852149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1815,7 +1862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340325378}
   - component: {fileID: 340325379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1902,7 +1949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 349894761}
   - component: {fileID: 349894762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1989,7 +2036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363211402}
   - component: {fileID: 363211403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2076,7 +2123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 371912502}
   - component: {fileID: 371912503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2163,7 +2210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 390572370}
   - component: {fileID: 390572371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2250,7 +2297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 411137165}
   - component: {fileID: 411137166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2337,7 +2384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450834704}
   - component: {fileID: 450834705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2424,7 +2471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480953969}
   - component: {fileID: 480953970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495077922}
   - component: {fileID: 495077923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2598,7 +2645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 501375675}
   - component: {fileID: 501375676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2689,8 +2736,8 @@ GameObject:
   - component: {fileID: 502591732}
   - component: {fileID: 502591733}
   m_Layer: 0
-  m_Name: Mario_0
-  m_TagString: Untagged
+  m_Name: Mario
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2762,7 +2809,8 @@ Transform:
   m_LocalPosition: {x: 10.2, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1678092403}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &502591731
@@ -2781,7 +2829,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d7c585f7f20a63f4f94a2eb3ae66ac09, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2791,7 +2839,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &502591732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2869,6 +2917,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2943,13 +2992,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 60, y: 6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0194300bdc3f69040829630bb4802a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraOffset: {x: 0, y: 0, z: -10}
+  minCameraPosition: {x: 9, y: 5}
+  maxCameraPosition: {x: 60, y: 6}
 --- !u!1 &522064117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2960,7 +3024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 522064118}
   - component: {fileID: 522064119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3047,7 +3111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 533748184}
   - component: {fileID: 533748185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3134,7 +3198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590504929}
   - component: {fileID: 590504930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,7 +3285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 591909072}
   - component: {fileID: 591909073}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3308,7 +3372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 617420011}
   - component: {fileID: 617420012}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3395,7 +3459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 627361740}
   - component: {fileID: 627361741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3482,7 +3546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 657416456}
   - component: {fileID: 657416457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3684,7 +3748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 721193426}
   - component: {fileID: 721193427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3771,7 +3835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 764996961}
   - component: {fileID: 764996962}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3858,7 +3922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773887356}
   - component: {fileID: 773887357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3945,7 +4009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 775304005}
   - component: {fileID: 775304006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4032,7 +4096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 777880761}
   - component: {fileID: 777880762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4119,7 +4183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783292601}
   - component: {fileID: 783292602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4206,7 +4270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787985210}
   - component: {fileID: 787985211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4293,7 +4357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787988179}
   - component: {fileID: 787988180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4380,7 +4444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 796959893}
   - component: {fileID: 796959894}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4467,7 +4531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848236834}
   - component: {fileID: 848236835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4554,7 +4618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 851964715}
   - component: {fileID: 851964716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (124)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4641,7 +4705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 858763577}
   - component: {fileID: 858763578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4728,7 +4792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 865151827}
   - component: {fileID: 865151828}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4815,7 +4879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 871699145}
   - component: {fileID: 871699146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5031,7 +5095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 894893581}
   - component: {fileID: 894893582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5118,7 +5182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 919495778}
   - component: {fileID: 919495779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5293,7 +5357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 946751069}
   - component: {fileID: 946751070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5380,7 +5444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976346615}
   - component: {fileID: 976346616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5467,7 +5531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981245146}
   - component: {fileID: 981245147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5554,7 +5618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 983475354}
   - component: {fileID: 983475355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5641,7 +5705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991051139}
   - component: {fileID: 991051140}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5728,7 +5792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002136298}
   - component: {fileID: 1002136299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5815,7 +5879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1004438113}
   - component: {fileID: 1004438114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5902,7 +5966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024308552}
   - component: {fileID: 1024308553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5989,7 +6053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1025249571}
   - component: {fileID: 1025249572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6076,7 +6140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032916546}
   - component: {fileID: 1032916547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6163,7 +6227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036975181}
   - component: {fileID: 1036975182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6250,7 +6314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1044763583}
   - component: {fileID: 1044763584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6337,7 +6401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1046510218}
   - component: {fileID: 1046510219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6424,7 +6488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1049541061}
   - component: {fileID: 1049541062}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6511,7 +6575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067969981}
   - component: {fileID: 1067969982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6598,7 +6662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1070871155}
   - component: {fileID: 1070871156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6685,7 +6749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1078900969}
   - component: {fileID: 1078900970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6772,7 +6836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082337165}
   - component: {fileID: 1082337166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6859,7 +6923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101459997}
   - component: {fileID: 1101459998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6946,7 +7010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102458300}
   - component: {fileID: 1102458301}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7033,7 +7097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107983704}
   - component: {fileID: 1107983705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (137)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7153,7 +7217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1140516259}
   - component: {fileID: 1140516260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7240,7 +7304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1143853114}
   - component: {fileID: 1143853115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7327,7 +7391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147280678}
   - component: {fileID: 1147280679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7414,7 +7478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1187396976}
   - component: {fileID: 1187396977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7501,7 +7565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1204580263}
   - component: {fileID: 1204580264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7588,7 +7652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1235485507}
   - component: {fileID: 1235485508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7675,7 +7739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1253251172}
   - component: {fileID: 1253251173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7762,7 +7826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1254487517}
   - component: {fileID: 1254487518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7849,7 +7913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1256166070}
   - component: {fileID: 1256166071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7936,7 +8000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1278656351}
   - component: {fileID: 1278656352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8157,7 +8221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299335696}
   - component: {fileID: 1299335697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8244,7 +8308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1331670784}
   - component: {fileID: 1331670785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8331,7 +8395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1347982960}
   - component: {fileID: 1347982961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8418,7 +8482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1352466473}
   - component: {fileID: 1352466474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8505,7 +8569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1380292530}
   - component: {fileID: 1380292531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8592,7 +8656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1383830444}
   - component: {fileID: 1383830445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8679,7 +8743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384866738}
   - component: {fileID: 1384866739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8766,7 +8830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388227406}
   - component: {fileID: 1388227407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8853,7 +8917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395825811}
   - component: {fileID: 1395825812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8940,7 +9004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395897764}
   - component: {fileID: 1395897765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9027,7 +9091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426927515}
   - component: {fileID: 1426927516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9114,7 +9178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440700224}
   - component: {fileID: 1440700225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9201,7 +9265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1441776669}
   - component: {fileID: 1441776670}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9288,7 +9352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470174682}
   - component: {fileID: 1470174683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9375,7 +9439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1479859251}
   - component: {fileID: 1479859252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9462,7 +9526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1485726659}
   - component: {fileID: 1485726660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9636,7 +9700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1499407084}
   - component: {fileID: 1499407085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9723,7 +9787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1499947707}
   - component: {fileID: 1499947708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9810,7 +9874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506318759}
   - component: {fileID: 1506318760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9897,7 +9961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1513835361}
   - component: {fileID: 1513835362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9984,7 +10048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1539692834}
   - component: {fileID: 1539692835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10071,7 +10135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1544221575}
   - component: {fileID: 1544221576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10158,7 +10222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561516590}
   - component: {fileID: 1561516591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10245,7 +10309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575768589}
   - component: {fileID: 1575768590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10419,7 +10483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613798128}
   - component: {fileID: 1613798129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10506,7 +10570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634234353}
   - component: {fileID: 1634234354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10593,7 +10657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1639438627}
   - component: {fileID: 1639438628}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10680,7 +10744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1656509791}
   - component: {fileID: 1656509792}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10767,7 +10831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1657899082}
   - component: {fileID: 1657899083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10854,7 +10918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670621410}
   - component: {fileID: 1670621411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10941,7 +11005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1677710850}
   - component: {fileID: 1677710851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (135)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11018,6 +11082,98 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1678092402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678092403}
+  - component: {fileID: 1678092404}
+  - component: {fileID: 1678092405}
+  m_Layer: 0
+  m_Name: Ground Sensor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678092403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678092402}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 502591730}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1678092404
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678092402}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0061683655, y: -0.5089189}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.95300865, y: 0.23355556}
+  m_EdgeRadius: 0
+--- !u!114 &1678092405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678092402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb73dfd6612d9940bb03631e86df24d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGrounded: 0
 --- !u!1 &1679479413
 GameObject:
   m_ObjectHideFlags: 0
@@ -11028,7 +11184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1679479414}
   - component: {fileID: 1679479415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11115,7 +11271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1695723565}
   - component: {fileID: 1695723566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11202,7 +11358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1722996336}
   - component: {fileID: 1722996337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11376,7 +11532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1748001132}
   - component: {fileID: 1748001133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11463,7 +11619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1774686060}
   - component: {fileID: 1774686061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11550,7 +11706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1783561312}
   - component: {fileID: 1783561313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11637,7 +11793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1830449457}
   - component: {fileID: 1830449458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11724,7 +11880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831587812}
   - component: {fileID: 1831587813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11811,7 +11967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1833520969}
   - component: {fileID: 1833520970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11898,7 +12054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1836021461}
   - component: {fileID: 1836021462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11985,7 +12141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850369304}
   - component: {fileID: 1850369305}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12072,7 +12228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1883697849}
   - component: {fileID: 1883697850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12159,7 +12315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1890807370}
   - component: {fileID: 1890807371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12246,7 +12402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1896698744}
   - component: {fileID: 1896698745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12366,7 +12522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936312583}
   - component: {fileID: 1936312584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12453,7 +12609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1971133381}
   - component: {fileID: 1971133382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12540,7 +12696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1992727147}
   - component: {fileID: 1992727148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12627,7 +12783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1995401813}
   - component: {fileID: 1995401814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12714,7 +12870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018934221}
   - component: {fileID: 2018934222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12801,7 +12957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040495210}
   - component: {fileID: 2040495211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12888,7 +13044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042189046}
   - component: {fileID: 2042189047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12975,7 +13131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064543383}
   - component: {fileID: 2064543384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13062,7 +13218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2077394400}
   - component: {fileID: 2077394401}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13149,7 +13305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080928869}
   - component: {fileID: 2080928870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13236,7 +13392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2083491047}
   - component: {fileID: 2083491048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13323,7 +13479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095400140}
   - component: {fileID: 2095400141}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13410,7 +13566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110701409}
   - component: {fileID: 2110701410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ladrillos_12 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13491,10 +13647,10 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
   - {fileID: 1496906680}
   - {fileID: 871699145}
   - {fileID: 321714058}
   - {fileID: 1129710029}
+  - {fileID: 519420032}
   - {fileID: 502591730}
   - {fileID: 719254598}
