@@ -19,12 +19,14 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rBody2D;
     private SpriteRenderer render;
     private GroundSensor sensor;
+    private Animator animator;
 
     void Awake()
     {
         rBody2D = GetComponent<Rigidbody2D>();
         render = GetComponent<SpriteRenderer>();
         sensor = GetComponentInChildren<GroundSensor>();
+        animator = GetComponent<Animator>();
 
         moveAction = InputSystem.actions["Move"];
         jumpAction = InputSystem.actions["Jump"];
@@ -57,10 +59,16 @@ public class PlayerController : MonoBehaviour
         if(moveDirection.x > 0)
         {
             render.flipX = false;
+            animator.SetBool("IsRunning", true);
         }
         else if(moveDirection.x < 0)
         {
             render.flipX = true;
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
         }
         
 
@@ -68,6 +76,8 @@ public class PlayerController : MonoBehaviour
         {
             rBody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+
+        animator.SetBool("IsJumping", !sensor.isGrounded);
     }
 
     void FixedUpdate()
