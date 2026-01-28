@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public float movementSpeed = 5f;
     public float jumpForce = 10;
+    public float bounceForce = 4;
     public int direction = 1;
 
     public Vector3 initialPosition;
@@ -83,5 +84,10 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         rBody2D.linearVelocity = new Vector2(moveDirection.x * movementSpeed, rBody2D.linearVelocity.y);
+    }
+
+    public void Bounce()
+    {
+        rBody2D.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
     }
 }
