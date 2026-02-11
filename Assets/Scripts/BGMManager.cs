@@ -17,12 +17,6 @@ public class BGMManager : MonoBehaviour
         StartBGM();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void StartBGM()
     {
         _audioSource.loop = true;

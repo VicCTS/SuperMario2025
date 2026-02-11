@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Goomba : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Goomba : MonoBehaviour
 
     public float movementSpeed = 4;
     public int direction = 1;
+    private int _goombaHealth = 3;
+    private Slider _healthSlider;
 
     void Awake()
     {
@@ -18,12 +21,14 @@ public class Goomba : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
         _boxCollider = GetComponent<BoxCollider2D>();
         _gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        _healthSlider = GetComponentInChildren<Slider>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        _healthSlider.maxValue = _goombaHealth;
+        _healthSlider.value = _goombaHealth;
     }
 
     // Update is called once per frame
@@ -49,6 +54,17 @@ public class Goomba : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             Destroy(collision.gameObject);
+        }
+    }
+
+    public void TakeDamage()
+    {
+        _goombaHealth--;
+        _healthSlider.value = _goombaHealth;
+
+        if(_goombaHealth <= 0)
+        {
+            GoombaDeath();
         }
     }
 

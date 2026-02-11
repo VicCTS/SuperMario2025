@@ -23,7 +23,7 @@ public class GroundSensor : MonoBehaviour
         {
             //Destroy(collision.gameObject);
             Goomba _enemyScript  = collision.gameObject.GetComponent<Goomba>(); 
-            _enemyScript.GoombaDeath();
+            _enemyScript.TakeDamage();
 
             _playerScript.Bounce();
         }
