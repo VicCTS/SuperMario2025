@@ -17,12 +17,16 @@ public class PlayerController : MonoBehaviour
     public Vector2 moveDirection;
     private InputAction jumpAction;
     private InputAction _pauseAction;
+    private InputAction _attackAction;
 
     public Rigidbody2D rBody2D;
     private SpriteRenderer render;
     private GroundSensor sensor;
     private Animator animator;
     private GameManager _gameManager;
+
+    public GameObject bulletPrefab;
+    public Transform bulletSpawn;
 
     void Awake()
     {
@@ -35,6 +39,7 @@ public class PlayerController : MonoBehaviour
         moveAction = InputSystem.actions["Move"];
         jumpAction = InputSystem.actions["Jump"];
         _pauseAction = InputSystem.actions["Pause"];
+        _attackAction = InputSystem.actions["Attack"];
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -92,7 +97,10 @@ public class PlayerController : MonoBehaviour
             rBody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
-        
+        if(_attackAction.WasPressedThisFrame())
+        {
+            Shoot();
+        }        
 
         animator.SetBool("IsJumping", !sensor.isGrounded);
     }
@@ -106,5 +114,10 @@ public class PlayerController : MonoBehaviour
     {
         rBody2D.linearVelocity = new Vector2(rBody2D.linearVelocity.x, 0);
         rBody2D.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+    }
+
+    void Shoot()
+    {
+        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
     }
 }
