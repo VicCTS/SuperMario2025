@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -24,9 +25,16 @@ public class PlayerController : MonoBehaviour
     private GroundSensor sensor;
     private Animator animator;
     private GameManager _gameManager;
+    public ParticleSystem _walkParticles;
 
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
+
+    bool _canShoot = false;
+    float _powerUpDuration = 10;
+    float _powerUpTimer;
+
+    public GameObject attackHitBox;
 
     void Awake()
     {
@@ -35,6 +43,7 @@ public class PlayerController : MonoBehaviour
         sensor = GetComponentInChildren<GroundSensor>();
         animator = GetComponent<Animator>();
         _gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        //_walkParticles = GetComponentInChildren<ParticleSystem>();
 
         moveAction = InputSystem.actions["Move"];
         jumpAction = InputSystem.actions["Jump"];
@@ -78,31 +87,71 @@ public class PlayerController : MonoBehaviour
 
         if(moveDirection.x > 0)
         {
-            render.flipX = false;
+            //render.flipX = false;
+            transform.rotation = Quaternion.Euler(0, 0, 0);
             animator.SetBool("IsRunning", true);
+            if(!_walkParticles.isPlaying && sensor.isGrounded)
+            {
+                _walkParticles.Play();
+            }
         }
         else if(moveDirection.x < 0)
         {
-            render.flipX = true;
+            //render.flipX = true;
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+            //transform.eulerAngles = new Vector3(0, 180, 0);
             animator.SetBool("IsRunning", true);
+            if(!_walkParticles.isPlaying && sensor.isGrounded)
+            {
+                _walkParticles.Play();
+            }
+            
         }
         else
         {
             animator.SetBool("IsRunning", false);
+            if(_walkParticles.isPlaying)
+            {
+                _walkParticles.Stop();
+            }
+            
         }
         
 
         if(jumpAction.WasPressedThisFrame() && sensor.isGrounded)
         {
             rBody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            //_walkParticles.Stop();
         }
 
-        if(_attackAction.WasPressedThisFrame())
+        if(!sensor.isGrounded && _walkParticles.isPlaying)
+        {
+            _walkParticles.Stop();
+        }
+
+        if(_attackAction.WasPressedThisFrame() && _canShoot)
         {
             Shoot();
-        }        
+            //Attack();
+            //animator.SetTrigger("Attack");
+        }   
+
+        if(_canShoot)
+        {
+            ShootPowerUp();
+        }     
 
         animator.SetBool("IsJumping", !sensor.isGrounded);
+    }
+
+    void ShootPowerUp()
+    {
+        _powerUpTimer += Time.deltaTime;
+
+        if(_powerUpTimer >= _powerUpDuration)
+        {
+            _canShoot = false;
+        }
     }
 
     void FixedUpdate()
@@ -119,5 +168,26 @@ public class PlayerController : MonoBehaviour
     void Shoot()
     {
         Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+    }
+
+    void Attack()
+    {
+        if(attackHitBox.activeInHierarchy)
+        {
+            attackHitBox.SetActive(false);
+        }
+        else
+        {
+            attackHitBox.SetActive(true);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collider.gameObject.CompareTag("PowerUp"))
+        {
+            _powerUpTimer = 0;
+            _canShoot = true;
+        }
     }
 }

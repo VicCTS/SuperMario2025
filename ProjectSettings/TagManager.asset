@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Tuberias
+  - PowerUp
   layers:
   - Default
   - TransparentFX

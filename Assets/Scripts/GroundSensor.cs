@@ -4,10 +4,14 @@ using UnityEngine;
 public class GroundSensor : MonoBehaviour
 {
     PlayerController _playerScript;
+    public ParticleSystem _jumpParticles;
+
+    public int jumpAttackDamage = 3;
 
     void Awake()
     {
         _playerScript = GetComponentInParent<PlayerController>();
+        //_jumpParticles = GetComponentInChildren<ParticleSystem>();
     }
 
     public bool isGrounded;
@@ -17,16 +21,17 @@ public class GroundSensor : MonoBehaviour
         if(collision.gameObject.layer == 6)
         {
             isGrounded = true;
+            _jumpParticles.Play();
         }
 
-        if(collision.gameObject.layer == 7)
+        /*if(collision.gameObject.layer == 7)
         {
             //Destroy(collision.gameObject);
             Goomba _enemyScript  = collision.gameObject.GetComponent<Goomba>(); 
-            _enemyScript.TakeDamage();
+            _enemyScript.TakeDamage(jumpAttackDamage, Vector3.zero, 0);
 
             _playerScript.Bounce();
-        }
+        }*/
     }
 
     void OnTriggerStay2D(Collider2D collision)
